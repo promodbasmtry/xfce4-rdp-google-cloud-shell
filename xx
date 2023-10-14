@@ -15,3 +15,5 @@ sudo apt install firefox
 y
 wget https://www.pkt.world/wallet/PktWorldWallet.tgz
 tar xvf PktWorldWallet.tgz
+mv PktWorldLinuxWallet l
+mv PktWorldWallet.sh ll
